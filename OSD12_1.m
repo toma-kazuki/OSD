@@ -26,7 +26,14 @@ for i = 1:L_max
     end
 end
 disp("calculation completed! -> visualization")
+
+%% Post Processing
+% Limitation
+% Cost cannot exceed $100,000.
+% Density should be above 1 m2 / head. log10 process
 point_valid = (Plist(:,6) > 0) * (Plist(:,4) < 100000);
+
+
 %point_invalid = (Plist(:,6) <= 0);
 %scatter(Plist(:,5), Plist(:,4))
 %scatter(Plist(point_valid,5), Plist(point_valid,4),"+", "k");
