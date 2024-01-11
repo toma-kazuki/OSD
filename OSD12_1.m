@@ -2,9 +2,9 @@ clear all; close all;
 L_max = 100;%[m]
 R_max = 100;%[m]
 N_max = 1000;%[#num]
-Llist = 1:L_max;
-Rlist = 1:R_max;
-Nlist = 1:N_max;
+Llist = linspace(1,L_max,100);
+Rlist = linspace(1,R_max,100);
+Nlist = linspace(1,N_max,100);
 Plot_max = L_max*R_max*N_max;
 Plist = zeros(Plot_max,6);
 
@@ -26,8 +26,8 @@ for i = 1:L_max
     end
 end
 disp("calculation completed! -> visualization")
-point_valid = (Plist(:,6) > 0);
-point_invalid = (Plist(:,6) <= 0);
+point_valid = (Plist(:,6) > 0) * (Plist(:,4) < 100000);
+%point_invalid = (Plist(:,6) <= 0);
 %scatter(Plist(:,5), Plist(:,4))
 %scatter(Plist(point_valid,5), Plist(point_valid,4),"+", "k");
 %scatter(Plist(point_invalid,5), Plist(point_invalid,4),"+", "r");
