@@ -9,7 +9,7 @@ function plot_palate_color(x,y,z,label_x,label_y,label_color,label_title)
     figure;
     hold on;
     scatter(x, y, 15, z, 'filled'); % The '15' here is the size of the markers
-    currentColormap = colormap('Jet');
+    currentColormap = colormap('hot');
     % Modify the last row of the colormap to be a visible color, e.g., bright pink
     %currentColormap(end, :) = [1, 0.078, 0.576]; % bright pink color
     % % 独自のカラーマップを作成するために、線形に補間します
@@ -17,7 +17,7 @@ function plot_palate_color(x,y,z,label_x,label_y,label_color,label_title)
     %customColormap = interp1(linspace(0, 1, size(currentColormap, 1)), currentColormap, linspace(0, 1, 256));
     
     colormap(currentColormap);
-    caxis([min(z), max(z)]); % Setting the limits of the color axis to match the data range
+    caxis([min(z), max(z)*7/6]); % Setting the limits of the color axis to match the data range
 
     % Adding the colorbar on the right
     colorbar;
