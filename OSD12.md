@@ -10,8 +10,6 @@
 </script>
 
 # Optimal System Design-12 Homework
-37-226356
-Kazuki Toma
 
 Submitted on  January 17th.
 ## 1. Dairy Farm Problem
