@@ -1,0 +1,6 @@
+[Input:save data? type 1(YES) or 0(NO)
+>>>1
+   2024/01/17 14:15:12
+
+[Input:Identify the results(Do not use space)]
+>>>surface
