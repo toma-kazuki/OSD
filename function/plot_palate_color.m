@@ -4,10 +4,8 @@ function plot_palate_color(x,y,z,label_x,label_y,label_color,label_title)
     %x = rand(1000, 1) * 0.3; % Scientific Benefit
     %y = rand(1000, 1) * 25000; % Lifecycle cost (scaled to match the image)
     %z = rand(1000, 1) * 2; % The color scale for 'interference' level
-    hold off;
     % Creating the scatter plot
     figure;
-    hold on;
     scatter(x, y, 15, z, 'filled'); % The '15' here is the size of the markers
     currentColormap = colormap('hot');
     % Modify the last row of the colormap to be a visible color, e.g., bright pink

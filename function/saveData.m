@@ -29,7 +29,7 @@ function saveData(basepath)
         movefile('commandlog.txt',dirname);
         
         % save workspace
-        movefile('setting_simulation.mat',dirname);
+        %movefile('setting_simulation.mat',dirname);
         
     end
 end
