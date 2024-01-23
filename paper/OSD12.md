@@ -18,9 +18,8 @@ Submitted on  January 17th.
 - Find the optimal 𝐿, 𝑅, and 𝑁, and the resulting profit 𝑃
   
 
-<!--
-<img src="images/DairyFarmProblem.png" width="95%">
--->
+<img src="../images/DairyFarmProblem.png" width="95%">
+
 ### 1.2 Equation
 - define the equation of profit and cost
 
@@ -57,7 +56,7 @@ $$\begin{aligned}
 \mathcal{J}=f(x) &=  f(R,N)
 \end{aligned}$$
 Now we can draw surface plot and find the maximum profit.
-<img src="out/240117/1415_surface/image2.png" width="95%">
+<img src="../out/240117/1415_surface/image2.png" width="95%">
 
 ### ***Results***
 There is slight errors caused by computation derivation.
@@ -67,7 +66,7 @@ There is slight errors caused by computation derivation.
 - [#] of head = 17
 - Profit = 1.5351 x 10^5 [$]</u>
 
-<!--
+
 
 ### 1.3 Simulation Results
 Here I investigated simulation analysis for understanding the model.
@@ -75,26 +74,27 @@ Here I investigated simulation analysis for understanding the model.
   * 1 < Length < 100m
   * 1 < Radius < 100m
   * 1 < Number of cows < 30
-<img src="out/240112/2330_L100_R100_N30/image2.png" width="95%">
-<img src="out/240112/2330_L100_R100_N30/image3.png" width="95%">
-<img src="out/240112/2330_L100_R100_N30/image4.png" width="95%">
-<img src="out/240112/2330_L100_R100_N30/image5.png" width="95%">
+
+
+<img src="../out/240112/2330_L100_R100_N30/image2.png" width="95%">
+<img src="../out/240112/2330_L100_R100_N30/image3.png" width="95%">
+<img src="../out/240112/2330_L100_R100_N30/image4.png" width="95%">
+<img src="../out/240112/2330_L100_R100_N30/image5.png" width="95%">
 
 ### 1.4 Optimization Function
 Future work. such as constraint optimization problem
--->
+
 
 
 ## 2. Todai Lecture Communication problem
 ### 2.1 Problem Definition
-<!--
 - capacity
-<img src="images/Capacity.png" width="95%">
+<img src="../images/Capacity.png" width="95%">
 - Incidence Matrix 
-<img src="images/incidenceMatrix.png" width="95%">
+<img src="../images/incidenceMatrix.png" width="95%">
 - Minimum Cost Flow Problem
 - Find the optimal flow and the resulting cost!
-<img src="images/TodaiLectureCommunicationProblem.png" width="95%">
+<img src="../images/TodaiLectureCommunicationProblem.png" width="95%">
 -->
 
 ### 2.2 Equation
